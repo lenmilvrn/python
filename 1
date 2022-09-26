@@ -1,0 +1,32 @@
+class People(object):
+    n=0
+    def __init__(self, pop,gender,age,prof):
+        self.pop = n
+        self.gender = gender
+        self.age = age
+        self.prof = prof
+    def drop_out(self):
+        return ('Ухожу')
+        pop =- 1
+    def app(self):
+        return ('Пришел')
+    def skip(self):
+        return ('Прогулял')
+    def learn(self):
+        return ('Узнал')
+    def teach(self):
+        return ('Научил')
+
+student = People(100, "male",17, "student")
+print(student.gender)
+print(student.app)
+print(student.drop_out)
+print(student.pop)
+
+
+
+if __name__ == "__main__":
+         teacher = People(40,"female", 39, "teacher")
+         print(teacher.age)
+         teacher.teach()
+         print('Я научил!')
